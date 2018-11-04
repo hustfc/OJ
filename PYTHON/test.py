@@ -1,1 +1,1 @@
-print(10-0.5)
+print(int('.'))
