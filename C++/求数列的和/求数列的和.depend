@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1534154460 source:d:\我的坚果云\oj\c++\求数列的和\main.cpp
+	<iostream>
+	<math.h>
+	<iomanip>
+
