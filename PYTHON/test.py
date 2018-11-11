@@ -1,3 +1,3 @@
-matrix = [[1,2,3,4],[4,5,6,7]]
-print(len(matrix[0]))
-print(len(matrix))
+list = [1,2,3,4]
+print(list.pop(0))
+print(list.pop(0))
