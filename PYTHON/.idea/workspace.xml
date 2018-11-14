@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8667cc10-c0ab-4ba2-87f8-489b652387a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/复杂链表的复制.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/复杂链表的复制2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/复杂链表的复制.py" beforeDir="false" afterPath="$PROJECT_DIR$/复杂链表的复制.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,12 +137,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="9785" />
+          <entry key="py" value="9836" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="9785" />
+          <entry key="Python" value="9836" />
         </counts>
       </usages-collector>
     </session>
@@ -229,24 +227,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/复杂链表的复制.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="110">
+              <caret line="6" selection-start-line="6" selection-end-line="52" selection-end-column="35" />
               <folding>
-                <marker date="1542202992749" expanded="true" signature="797:1036" ph="..." />
-                <marker date="1542202992749" expanded="true" signature="1059:1068" ph="..." />
+                <marker date="1542204666525" expanded="true" signature="761:770" ph="..." />
+                <marker date="1542204666525" expanded="true" signature="761:1446" ph="..." />
+                <marker date="1542204666525" expanded="true" signature="1469:1478" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/复杂链表的复制2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+            <state relative-caret-position="127">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="37" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -376,8 +375,8 @@
         <option value="$PROJECT_DIR$/二叉搜索树的后序遍历.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/二叉树中某一值的路径.py" />
-        <option value="$PROJECT_DIR$/复杂链表的复制.py" />
         <option value="$PROJECT_DIR$/复杂链表的复制2.py" />
+        <option value="$PROJECT_DIR$/复杂链表的复制.py" />
       </list>
     </option>
   </component>
@@ -412,7 +411,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.复杂链表的复制2">
+  <component name="RunManager" selected="Python.复杂链表的复制">
     <configuration name="删除链表中重复的节点" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PYTHON" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1560,8 +1559,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.复杂链表的复制2" />
         <item itemvalue="Python.复杂链表的复制" />
+        <item itemvalue="Python.复杂链表的复制2" />
         <item itemvalue="Python.AdaBoost" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.删除链表中重复的节点" />
@@ -1599,7 +1598,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.124087594" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.22043796" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1978,21 +1977,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/复杂链表的复制.py">
+    <entry file="file://$PROJECT_DIR$/复杂链表的复制2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-          <folding>
-            <marker date="1542202992749" expanded="true" signature="797:1036" ph="..." />
-            <marker date="1542202992749" expanded="true" signature="1059:1068" ph="..." />
-          </folding>
+        <state relative-caret-position="127">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="37" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/复杂链表的复制2.py">
+    <entry file="file://$PROJECT_DIR$/复杂链表的复制.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+        <state relative-caret-position="110">
+          <caret line="6" selection-start-line="6" selection-end-line="52" selection-end-column="35" />
+          <folding>
+            <marker date="1542204666525" expanded="true" signature="761:770" ph="..." />
+            <marker date="1542204666525" expanded="true" signature="761:1446" ph="..." />
+            <marker date="1542204666525" expanded="true" signature="1469:1478" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
