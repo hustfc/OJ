@@ -54,3 +54,64 @@ def load_data(root, vfold_ratio=0.2, max_items_per_class=5000):
     x_train = x[vfold_size:x.shape[0], :]
     y_train = y[vfold_size:y.shape[0]]
     return x_train, y_train, x_test, y_test, class_names
+
+
+model = Sequential()
+#Conv1层输入（28，28，1）输出（24，24，96）使用步长1来减少输出的宽和高，卷积核的数目比lenet大得多
+model.add(Conv2D(96,(5,5),strides=(1,1),input_shape=x_train.shape[1:],padding='valid',activation='relu',kernel_initializer='uniform'))
+#Pooling1层，输出（11，11，96）
+model.add(MaxPooling2D(pool_size=(3,3),strides=(2,2)))
+#Conv2层，，输出（11，11，256）filter的数目为256，增加通道数目
+model.add(BatchNormalization())#归一化层
+
+model.add(Conv2D(256,(4,4),strides=(1,1),padding='same',activation='relu',kernel_initializer='uniform'))
+#Pooling2层，输出（5，5，256）
+model.add(MaxPooling2D(pool_size=(3,3),strides=(2,2)))
+model.add(BatchNormalization())
+
+#连续三个卷积层，前两个卷积层不使用池化层减少宽和高，使用更小的卷积窗口，增加更多的卷积核数目，输出（5，5，384）
+model.add(Conv2D(384,(3,3),padding='same',activation='relu',kernel_initializer='uniform'))
+model.add(BatchNormalization())
+
+model.add(Conv2D(384,(3,3),padding='same',activation='relu',kernel_initializer='uniform'))
+model.add(BatchNormalization())
+
+#输出（5，5，256）
+model.add(Conv2D(256,(3,3),padding='same',activation='relu',kernel_initializer='uniform'))
+#最后一个Pooling层，减少输出的宽和高（输出2，2，256）
+model.add(MaxPooling2D(pool_size=(3,3),strides=(2,2)))
+model.add(BatchNormalization())
+
+#将多维输入一维化之后接FC
+model.add(Flatten())
+# 这里全连接层的输出个数比 LeNet 中的大数倍。使用丢弃层来缓解过拟合
+model.add(Dense(4096,activation='relu'))
+#Dropout将在训练过程中每次更新参数时按一定概率随机断开输入神经元
+model.add(Dropout(0.5))
+model.add(BatchNormalization())
+
+model.add(Dense(4096,activation='relu'))
+model.add(Dropout(0.5))#使用丢弃层来缓解过拟合
+model.add(BatchNormalization())
+
+model.add(Dense(100,activation='softmax'))
+adam = tf.train.AdamOptimizer() #随机梯度下降
+model.compile(loss='categorical_crossentropy',optimizer=adam,metrics=['top_k_categorical_accuracy'])
+#categorical_crossentropy：多类对数损失
+#optimizer优化器
+#metrics：列表，包含评估模型在训练和测试时的性能的指标
+print(model.summary())
+model.fit(x = x_train, y = y_train, validation_split=0.1, batch_size = 256, verbose=2, epochs=6)
+score = model.evaluate(x_test, y_test, verbose=0)
+print('Test accuarcy: {:0.2f}%'.format(score[1] * 100))
+
+mport matplotlib.pyplot as plt
+from random import randint
+%matplotlib inline
+idx = randint(0, len(x_test))
+img = x_test[idx]
+plt.imshow(img.squeeze())
+pred = model.predict(np.expand_dims(img, axis=0))[0]
+ind = (-pred).argsort()[:5]
+latex = [class_names[x] for x in ind]
+print(latex)
