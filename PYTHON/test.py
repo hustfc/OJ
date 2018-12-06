@@ -1,2 +1,4 @@
 string = '12345'
-print(string[0:2])
+dic = {}
+dic = dic.fromkeys(string, 0)
+print(dic)
