@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e86ae42a-790e-46c1-9dd5-7ab9c31ee46e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PYTHON/判断丑数的解法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PYTHON/判断丑数解法1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PYTHON/判断丑数解法2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PYTHON/数组中的逆序对.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PYTHON/第一个只出现一次的字符.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PYTHON/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/PYTHON/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,17 +54,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PYTHON/判断丑数解法1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" selection-end-column="46" />
+            <state relative-caret-position="960">
+              <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PYTHON/判断丑数解法2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -72,8 +72,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PYTHON/判断丑数的解法.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="18" selection-end-column="40" />
+            <state relative-caret-position="216">
+              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PYTHON/第一个只出现一次的字符.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PYTHON/数组中的逆序对.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-146">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -82,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/PYTHON/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -104,11 +122,13 @@
       <list>
         <option value="$PROJECT_DIR$/PYTHON/把数字翻译成字符串.py" />
         <option value="$PROJECT_DIR$/PYTHON/礼物的最大值.py" />
-        <option value="$PROJECT_DIR$/PYTHON/test.py" />
         <option value="$PROJECT_DIR$/PYTHON/最长不包含重复的子字符串.py" />
         <option value="$PROJECT_DIR$/PYTHON/判断丑数解法1.py" />
         <option value="$PROJECT_DIR$/PYTHON/判断丑数解法2.py" />
         <option value="$PROJECT_DIR$/PYTHON/判断丑数的解法.py" />
+        <option value="$PROJECT_DIR$/PYTHON/第一个只出现一次的字符.py" />
+        <option value="$PROJECT_DIR$/PYTHON/test.py" />
+        <option value="$PROJECT_DIR$/PYTHON/数组中的逆序对.py" />
       </list>
     </option>
   </component>
@@ -160,8 +180,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.判断丑数的解法">
-    <configuration name="三数之和" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.数组中的逆序对">
+    <configuration name="数组中的逆序对" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OJ" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -173,7 +193,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PYTHON/三数之和.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PYTHON/数组中的逆序对.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,6 +236,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PYTHON/判断丑数解法2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="第一个只出现一次的字符" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OJ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PYTHON" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PYTHON/第一个只出现一次的字符.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -331,11 +372,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.判断丑数的解法" />
+        <item itemvalue="Python.数组中的逆序对" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.第一个只出现一次的字符" />
         <item itemvalue="Python.判断丑数解法2" />
         <item itemvalue="Python.判断丑数解法1" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.三数之和" />
       </list>
     </recent_temporary>
   </component>
@@ -354,14 +395,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1007" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.018083183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2273224" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.66338795" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -397,13 +437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PYTHON/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PYTHON/最长不包含重复的子字符串.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -413,22 +446,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PYTHON/判断丑数解法1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PYTHON/判断丑数的解法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="18" selection-end-column="40" />
+        <state relative-caret-position="960">
+          <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PYTHON/判断丑数解法2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PYTHON/判断丑数的解法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PYTHON/第一个只出现一次的字符.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PYTHON/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PYTHON/数组中的逆序对.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
