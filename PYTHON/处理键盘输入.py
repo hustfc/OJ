@@ -1,0 +1,6 @@
+x = int(input())
+m, n = map(int, input().split())
+nums = list(map(int, input().split()))
+print(x)
+print(m ,n)
+print(nums)
